@@ -6,17 +6,19 @@
 
 Este repositorio contiene el material práctico de mi curso de visualización en Python. 
 
-### Material Teórico
-
-Este curso acompaña el material teórico disponible en la [página del curso](http://datagramas.cl/uddvis).
-
 ### Requisitos
 
 El curso requiere tener conocimientos básicos de análisis de datos con `pandas` y uso elemental de `matplotlib`.
 
-### Clases Prácticas 
+Para instalar las bibliotecas necesarias, puedes utilizar `conda`:
 
-(Listado parcial)
+```
+conda env create -f environment.yml
+```
+
+Si tienes tu propio environment y algunas cosas no funcionan, compara las versiones de las bibliotecas que tienes instaladas con las del environment del curso.
+
+### Clases Prácticas 
 
 1. Introducción
 2. Tablas
@@ -38,3 +40,4 @@ El código hace uso de las siguientes bibliotecas de software:
 - seaborn
 - networkx
 - scikit-learn
+- pysal
